@@ -1,0 +1,114 @@
+@font-face {
+    font-family: rennie;
+    src: url(../fonts/ReenieBeanie-Regular.ttf);
+  }
+
+@font-face {
+    font-family: comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+a {
+	outline: none;
+	text-decoration: none;
+	padding: 2px 1px 0;
+	color: black;
+}
+
+.reenieFont{
+    font-family: rennie;
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+
+.vh100{
+    height: 100vh;
+}
+
+.jumbotron {
+    background:
+      linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../src/image.webp");
+    background-size: cover;
+}
+
+.showJumboPic img{
+    display: none;
+}
+
+.bg-blue{
+    background-color: #007BBD;
+}
+
+@media screen and (max-width: 800px) {
+    .jumbotron {
+        background:none;
+          /* linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+          ),
+          url("../src/byRacool_studio_sm.jpg");
+        background-size:auto; */
+        background-color: rgba(175, 88, 117, 0.986);
+    }
+
+    .showJumboPic img{
+        display: block;
+        border-radius: 3px;
+    }
+  }
+
+  .rem3{
+      font-size: 3rem;
+  }
+
+  .card {
+      margin-bottom: 15px;
+  }
+
+/*ICON colours*/
+.fb-color{
+    color: #3B5998;
+}
+
+.insta-color{
+    color: #DD4B39;
+}
+
+.wa-color{
+    color: #3ea74a;
+}
+
+.blue-text{
+    color: #007BBD;
+}
+
+.footer{
+    background-color: #F8F9FA;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+
+.brillo{
+    font-family: comfortaa;
+    color: #b5b9c2;
+    font-weight: bold;
+    margin: auto 0;
+    flex: 0 0 auto;
+    margin: 0px;
+}
+
+.brillo:hover{
+    color:black;
+    text-decoration: none;
+}
